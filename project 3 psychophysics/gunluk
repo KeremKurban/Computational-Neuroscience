@@ -1,0 +1,43 @@
+b = 123
+
+b =
+
+   123
+
+clear
+load keremdarkroomall
+help anova2
+
+anova2 not found.
+
+Use the Help browser search field to <a href="matlab:docsearch anova2">search the documentation</a>, or
+type "<a href="matlab:help help">help help</a>" for help command options, such as help for methods.
+
+help anova
+
+anova not found.
+
+Use the Help browser search field to <a href="matlab:docsearch anova">search the documentation</a>, or
+type "<a href="matlab:help help">help help</a>" for help command options, such as help for methods.
+
+help anovan
+
+anovan not found.
+
+Use the Help browser search field to <a href="matlab:docsearch anovan">search the documentation</a>, or
+type "<a href="matlab:help help">help help</a>" for help command options, such as help for methods.
+
+help anova1
+
+anova1 not found.
+
+Use the Help browser search field to <a href="matlab:docsearch anova1">search the documentation</a>, or
+type "<a href="matlab:help help">help help</a>" for help command options, such as help for methods.
+
+help anova1()
+
+anova1() not found.
+
+Use the Help browser search field to <a href="matlab:docsearch anova1()">search the documentation</a>, or
+type "<a href="matlab:help help">help help</a>" for help command options, such as help for methods.
+

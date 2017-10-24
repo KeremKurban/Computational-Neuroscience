@@ -1,0 +1,22 @@
+% main script for RGB cases:
+
+[wbrightness,wfov_normdata,wper_normdata] = Wfunc(2);
+
+%  RGBfunc(2,2); first arg is color 1:red 2:green 3:blue,  second arg is
+%  time threshold in seconds
+
+[red_brightness,red_normdata] = RGBfunc(1,2);
+[green_brightness,green_normdata] = RGBfunc(2,2);
+[blue_brightness,blue_normdata] = RGBfunc(3,2);
+
+brightness = red_brightness; % all is the same
+
+figure();
+title('RGB absolute thresholds')
+xlabel('Brightness')
+ylabel('Prob. reported seen')
+
+redplot = plot(brightness,red_normdata);
+hold on
+greenplot = plot(brightness,green_normdata);
+blueplot = plot(brightness,blue_normdata);
