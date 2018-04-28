@@ -1,6 +1,6 @@
 function [  ] = reactiontime_analysis( sample1,sample2 )
 %plots experimental value based on correct results.
-%v1.1  1=popo, 2=popx, 3=negpop, 4=conjo,5=conjx, 6=negconj
+%v1.1  1=popo,C 2=popx, 3=negpop, 4=conjo,5=conjx, 6=negconj
 % sample1 and sample2 are user_durations
 
 x=[4 8 12 16];

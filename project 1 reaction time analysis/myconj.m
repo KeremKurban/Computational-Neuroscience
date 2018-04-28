@@ -4,7 +4,7 @@ function [user_durations ] = myconj(type,color,otherscolor,font,othersNo,user_du
 
 %v1.1  1=popo, 2=popx, 3=negpop, 4=conjo,5=conjx, 6=negconj
 
-    title('press B if you see a blue circle,M if not','color','b');
+    title('press B if you see a blue circle','color','b');
     ax = gca; % to make title bigger
     ax.TitleFontSizeMultiplier = 2; % to make title bigger
     set(gca,'YTickLabel',[]);

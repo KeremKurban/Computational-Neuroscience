@@ -11,7 +11,7 @@ ax.TitleFontSizeMultiplier = 2; % to make title bigger
 set(gca,'YTickLabel',[]);
 set(gca,'XTickLabel',[]);
 starttext = text(0.45,0.5,'Get READY','color','b','fontsize',30);
-pause
+pause;
 input0 = get(gcf,'CurrentCharacter');
 
 global count
@@ -24,7 +24,7 @@ user_durations = zeros(320,4);
 
 %tekrarno = 4;
 
-if input0 == 'b'
+if input0 ~= '-'
     delete(starttext)
     
     for othersNo = [4,8,12,16]
@@ -99,6 +99,7 @@ if input0 == 'b'
     
     close ALL
 
+    
 end
 
 final = [size(find(user_durations(:,1) == 1));
