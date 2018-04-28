@@ -36,7 +36,7 @@ set(hFig,'units','normalized','outerposition',[0 0 1 1]);
 set(hAx,'Unit','normalized','Position',[0 0 1 1]);
 set(hFig,'menubar','none')
 set(hFig,'NumberTitle','off');
-set(gcf,'MenuBar','none','Toolbar','none')
+set(gcf,'MenuBar','none','Toolbar','none','color','k')
 axis off
 
 

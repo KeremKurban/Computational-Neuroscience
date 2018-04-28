@@ -48,7 +48,7 @@ xlabel('Luminance')
 ylabel('Prob. reported seen')
 legend([redplot,greenplot,blueplot,wplotfov,wplotper],'red','green','blue','white fovea','white peripheral','location','SouthEast')
 
-%Signal detection Theory:
+%% Signal detection Theory:
 
 correct_rejection = sum(false_score_w_fov)+sum(false_score_w_per)+sum(false_score_r)+sum(false_score_g)+...
     +sum(false_score_b);

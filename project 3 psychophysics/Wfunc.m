@@ -35,7 +35,7 @@ for periphery=1:2
     
 
     h = figure('units','normalized','outerposition',[0 0 1 1]); %Creating a figure with a handle h
-    set(gcf,'MenuBar','none','Toolbar','none')
+    set(gcf,'MenuBar','none','Toolbar','none','color','k')
     axis off
     
     hFig = gcf;
